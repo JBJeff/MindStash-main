@@ -12,8 +12,6 @@ Die Anwendung "MindStash" ist ein REST-basiertes Backend, das Benutzer dabei unt
 
 Es befinden sich zusätzlich Dokumentation in den jeweiligen Anwendungen 1. "Frontend 2. "Backend"
 
-
-
 ## Plattform
 Die Anwendung basiert auf:
 - **Programmiersprache**: Java 17
@@ -46,8 +44,8 @@ Die Anwendung basiert auf:
 ## Kurzanleitung zur Navigation und Nutzung
 
 ### Anwendung starten
-1. Stelle sicher, dass Java 17, Maven und Node.js installiert sind.
-2. Klone das Repository und navigiere zum Projektordner.
+1. Stelle Sie sicher, dass Java 17, Maven und Node.js installiert sind.
+2. Klonen das Repository und navigiere zum Projektordner.
 3. STARTE BEIDES GLEICHZEITIG!:
  ```bash
    ./start.bat ODER ./start.sh 
@@ -119,17 +117,19 @@ Die Anwendung basiert auf:
    - Navigiere zur Registrierungsseite (URL: `/register`).
    - Fülle die Felder für E-Mail, Passwort, Vor- und Nachname aus und drücke auf „Registrieren“.
    - Nach erfolgreicher Registrierung wird eine Erfolgsmeldung angezeigt.
+   - Ungültige Daten = Fehlschlag
 
 2. **Login:**
    - Gehe zur Login-Seite (URL: `/login`).
    - Gib E-Mail und Passwort ein und klicke auf „Login“.
    - Nach erfolgreichem Login wirst du zum Dashboard weitergeleitet.
+   - Login funktioniert nur mit gültigen Daten
 
 ### **3. Dashboard**
 Nach der Anmeldung ist das **Haupt-Dashboard** (URL: `/mainDashBoard`) der zentrale Ausgangspunkt:
 - **Kategorien anzeigen**: Alle erstellten Kategorien werden aufgelistet.
 - **Kategorie erstellen**:
-  1. Gib den Namen einer neuen Kategorie ein.
+  1. Gebe einen Namen einer neuen Kategorie ein.
   2. Klicke auf „Erstellen“.
   3. Die neue Kategorie erscheint in der Liste.
 - **Kategorie löschen**:
@@ -162,7 +162,7 @@ Verwende folgende Dummy-Daten, um die Anwendung zu testen:
   Komplett frei nutzbar, alle User werden in der Datenbank gespeichert. Es gibt keine "fertigen" Test User. 
 
 ### Datenbank
-Die Anwendung verwendet eine H2-In-Memory-Datenbank. Der Datenbank-Console kann unter `http://localhost:8080/h2-console` erreicht werden.
+Die Anwendung verwendet eine H2-In-Memory-Datenbank. Die Datenbank-Console kann unter `http://localhost:8080/h2-console` erreicht werden.
 - **JDBC URL**: `jdbc:h2:mem:testdb`
 - **Benutzername**: `sa`
 - **Passwort**: (kein Passwort erforderlich)
@@ -172,12 +172,13 @@ Die Anwendung verwendet eine H2-In-Memory-Datenbank. Der Datenbank-Console kann 
 ## Technische Hinweise
 - **Starten der App**: 
   ```
-  npm run dev
+  npm run dev 
   ```
+  Wurde wahrscheinlich schon mit der .bat oder .sh datei gestartet
 - **Haupttechnologien**:
   - **Frontend**: React, React-Router.
   - **API**: Axios zum Kommunizieren mit dem Backend.
-  - **Styling**: CSS-Dateien in den jeweiligen Komponenten. Müsste zusammen einheitlich verpackt werden und Mbile First, da Backend die Hauptkomponente ist wurde es vernachlässigt.
+  - **Styling**: CSS-Dateien in den jeweiligen Komponenten. Müsste zusammen einheitlich verpackt werden und Mobile First  Ansatz, da Backend die Hauptkomponente ist wurde es vernachlässigt.
 
 - **Backend-Endpunkte**:
   - Authentifizierung: `/authenticate`
