@@ -48,19 +48,20 @@ Die Anwendung basiert auf:
 ### Anwendung starten
 1. Stelle sicher, dass Java 17, Maven und Node.js installiert sind.
 2. Klone das Repository und navigiere zum Projektordner.
-3. Starte das Backend, siehe Schritt 5. um die folgenden Schritte zu überspringen:
-   ```bash
-   mvn spring-boot:run
-   ```
-4. Starte das Frontend:
-   ```bash
-   npm run dev
-   ```
-5. STARTE BEIDES GLEICHZEITIG!:
+3. STARTE BEIDES GLEICHZEITIG!:
  ```bash
    ./start.bat ODER ./start.sh 
    ```
    -Im obersten Ordner aufhalten: ~MindStash-Main und falls die Skripte nicht funnktionieren einfach die Anwendungen einzelnd starten!
+4. Starte das Backend, siehe Schritt 5. um die folgenden Schritte zu überspringen:
+   ```bash
+   mvn spring-boot:run
+   ```
+5. Starte das Frontend:
+   ```bash
+   npm run dev
+   ```
+
    
 
 ### Verfügbare Endpunkte
