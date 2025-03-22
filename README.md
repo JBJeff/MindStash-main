@@ -1,7 +1,7 @@
 ##Kurzbeschreibung
 Ausführliche Doku liegen jeweils in den .md Dateien.
 Eine im Frontend Ordner
-Eine im Backend Ordner
+Eine im Backend Ordner.
 
 Eine Allgemeine Doku die sich generell hält liegt au der selben Ordner Struktur mit den Dateiname "MindStash_Dokumentation.md".
 
