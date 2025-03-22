@@ -1,0 +1,79 @@
+
+
+/* Footer Styling */
+.footer {
+  background-color: #1c1c1c; /* Dunkles Grau-Schwarz als Hintergrund */
+  color: white;
+  padding: 5px 20px; /* Weniger Padding für einen kleineren Footer */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  position: fixed; /* Fixiert den Footer am unteren Rand der Seite */
+  bottom: 0; /* Stellt sicher, dass der Footer immer unten bleibt */
+  left: 0;
+  right: 0;
+  width: 100%; /* Der Footer nimmt die gesamte Breite des Bildschirms ein */
+  z-index: 1000; /* Stellt sicher, dass der Footer über anderem Inhalt bleibt */
+}
+
+/* Footer-Inhalt */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto; /* Zentriert den Footer-Inhalt */
+}
+
+.footer-logo h2 {
+  font-size: 18px; /* Kleinere Schriftgröße für das Logo */
+  font-weight: bold;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 13px; /* Kleinere Schriftgröße für Links */
+  transition: color 0.3s;
+}
+
+.footer-link:hover {
+  color: #28a745; /* Helles Grünes Hover für Links */
+}
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 8px;
+  font-size: 16px; /* Kleinere Icons */
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-social a:hover {
+  color: #28a745; /* Helles Grünes Hover für Social Media */
+}
+
+/* Footer unten (Copyright-Bereich) */
+.footer-bottom {
+  margin-top: 5px;
+  font-size: 11px; /* Noch kleinere Schrift für den Copyright-Bereich */
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Optional: Abstand nach oben für den Inhalt, um den Footer nicht zu überlappen */
+body {
+  margin-bottom: 60px; /* Fügt Abstand hinzu, damit der Footer nicht mit dem Inhalt kollidiert */
+}

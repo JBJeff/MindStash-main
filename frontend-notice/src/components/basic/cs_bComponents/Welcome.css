@@ -1,0 +1,76 @@
+/* Hintergrundfarbe der Seite */
+.welcomeComponent {
+    background-color: #f8f9fa; /* Sehr helles Grau oder Weiß als Hintergrund */
+    color: black; /* Schwarze Schrift */
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 50px;
+    /* height: 100vh; Volle Höhe des Viewports */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Header Styling */
+.welcomeHeader {
+    padding: 20px 20px; /* Weniger Padding für einen kleineren Header */
+    background-color: #f8f9fa; /* Sehr helles Grau für den Header */
+    text-align: center;
+    border-bottom: 3px solid #28a745; /* Grüner Akzent unter dem Header */
+}
+
+.welcomeHeader h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+    color: black; /* Schwarze Schriftfarbe für das Titel */
+}
+
+.welcomeHeader p {
+    font-size: 18px;
+    margin-top: 10px;
+    line-height: 1.6;
+    color: black; /* Schwarze Schriftfarbe für den Text */
+}
+
+/* Hauptinhalt Styling */
+.main-content {
+    background-color: #f8f9fa; /* Weißer Hintergrund für den Hauptinhalt */
+    color: black; /* Schwarze Schriftfarbe */
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px;
+    margin-top: 50px;
+    gap: 20px; 
+}
+
+.main-text {
+    font-size: 24px;
+    text-align: center;
+    /* margin-bottom: px; */
+    margin-top: 0;
+}
+
+/* Button Styling */
+.explore-button {
+    background-color: #28a745; /* Grüner Hintergrund für den Button */
+    color: white;
+    font-size: 18px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.explore-button:hover {
+    background-color: #218838; /* Dunkler Grünton bei Hover */
+}
+/* Optional: Body-Styling für den Inhalt */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}

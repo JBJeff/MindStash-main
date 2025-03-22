@@ -1,0 +1,95 @@
+/* Allgemeine Container-Stile */
+.category-notes {
+  padding: 30px;
+  margin: 20px auto;
+  max-width: 800px;
+  background-color: #f4f4f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+/* Ladeanzeige */
+p {
+  font-size: 16px;
+  color: #888;
+  text-align: center;
+}
+
+/* Abschnitt zum Hinzufügen einer neuen Notiz */
+.add-note-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.add-note-section input {
+  width: 80%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border 0.3s ease;
+}
+
+.add-note-section input:focus {
+  border-color: #4CAF50;
+}
+
+.add-note-button {
+  width: 15%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.add-note-button:hover {
+  background-color: #45a049;
+}
+
+/* Liste der Notizen */
+.notes-list {
+  margin-top: 20px;
+}
+
+.notes-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.note {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.note:hover {
+  background-color: #f9f9f9;
+}
+
+/* Stile für leere Notizenanzeige */
+.notes-list p {
+  font-size: 18px;
+  color: #999;
+  text-align: center;
+}
+
+  
