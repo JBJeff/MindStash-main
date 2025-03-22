@@ -3,7 +3,7 @@
 Ein zentrales Problem am ende der Entwicklung(Heute) war, dass bestimmte Klassen wie NoteService und NoteRepository vom Compiler nicht erkannt wurden. Dieses Problem entstand durch interne Pfad- und Importkonflikte während einer Projektstrukturierung(Wochen her). 
 Ich habe daraufhin alle relevanten Klassen in ein neues, sauberes Projekt überführt.
 
-Die wirklichen einzelnen Arbeitsschritte sowie die vollständige Code-Historie können Sie bei Bedarf in meinem öffentlichen GitHub-Repository eingesehen werden: 'MindStash'.
+Die wirklichen einzelnen Arbeitsschritte sowie die vollständige Code-Historie können Sie bei Bedarf in meinem öffentlichen GitHub-Repository einsehen werden: 'MindStash'.
 
 Ausführliche Dokumentationen befinden sich:
 - im **Frontend-Ordner** (`README.md`)
